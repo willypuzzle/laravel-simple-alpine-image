@@ -15,6 +15,9 @@ This is a sample to show how a container with an alpine based image can be used 
 - run: php artisan key:generate
 
 Now, your project is ready to be developed and tested
+(In order to test the application run "php artisan test" inside the directory /var/www/html in the container )
+
+There is only a end point you can test and it's GET /api/quote that returns a quote.
 
 ## License
 
