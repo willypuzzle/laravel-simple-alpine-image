@@ -23,8 +23,8 @@ class QuoteController extends Controller
 
         return response()->json([
             'success' => true,
-            'message' => $response->json('contents.quotes.quote'),
-            'credit' => 'They Say So (https://quotes.rest/)',
+            'message' => $response->json('contents.quotes.0.quote'),
+            'copyright' => $response->json('copyright'),
         ]);
     }
 }
